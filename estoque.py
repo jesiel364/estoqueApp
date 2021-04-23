@@ -48,10 +48,17 @@ Gerenciador:
 			pos_hint: {'center_x': .5, 'y': .4}
 
 		Button:
+			text: '->'
 			on_release: app.root.current = 'tela2'
 			text:
 			pos_hint: {'center_x': .5, 'y': .2}
 			size_hint: .5,.1
+			
+		TextInput:
+			font_size: '25sp'
+			size: .6, .1
+			size_hint: .5,.1
+			pos_hint: {'center_x': .5, 'y': .5}
 
 <Cadastro2>:
 	name: 'tela2'
